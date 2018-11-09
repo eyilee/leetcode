@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "709-To-Lower-Case", "709-To
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "807-Max-Increase-to-Keep-City-Skyline", "807-Max-Increase-to-Keep-City-Skyline\807-Max-Increase-to-Keep-City-Skyline.vcxproj", "{D1802834-655D-45FA-A04D-FD0E7B63D410}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "461-Hamming-Distance", "461-Hamming-Distance\461-Hamming-Distance.vcxproj", "{6A9930DB-A61E-42B8-8E93-27C5D1274112}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{D1802834-655D-45FA-A04D-FD0E7B63D410}.Release|x64.Build.0 = Release|x64
 		{D1802834-655D-45FA-A04D-FD0E7B63D410}.Release|x86.ActiveCfg = Release|Win32
 		{D1802834-655D-45FA-A04D-FD0E7B63D410}.Release|x86.Build.0 = Release|Win32
+		{6A9930DB-A61E-42B8-8E93-27C5D1274112}.Debug|x64.ActiveCfg = Debug|x64
+		{6A9930DB-A61E-42B8-8E93-27C5D1274112}.Debug|x64.Build.0 = Debug|x64
+		{6A9930DB-A61E-42B8-8E93-27C5D1274112}.Debug|x86.ActiveCfg = Debug|Win32
+		{6A9930DB-A61E-42B8-8E93-27C5D1274112}.Debug|x86.Build.0 = Debug|Win32
+		{6A9930DB-A61E-42B8-8E93-27C5D1274112}.Release|x64.ActiveCfg = Release|x64
+		{6A9930DB-A61E-42B8-8E93-27C5D1274112}.Release|x64.Build.0 = Release|x64
+		{6A9930DB-A61E-42B8-8E93-27C5D1274112}.Release|x86.ActiveCfg = Release|Win32
+		{6A9930DB-A61E-42B8-8E93-27C5D1274112}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
