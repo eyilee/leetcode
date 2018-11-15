@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "738-Monotone-Increasing-Dig
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "402-Remove-K-Digits", "402-Remove-K-Digits\402-Remove-K-Digits.vcxproj", "{441462A6-9240-45D3-929E-5D8819FB16C2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "447-Number-of-Boomerangs", "447-Number-of-Boomerangs\447-Number-of-Boomerangs.vcxproj", "{3DD5E0E6-C76F-4264-A1C0-E69A919D5678}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{441462A6-9240-45D3-929E-5D8819FB16C2}.Release|x64.Build.0 = Release|x64
 		{441462A6-9240-45D3-929E-5D8819FB16C2}.Release|x86.ActiveCfg = Release|Win32
 		{441462A6-9240-45D3-929E-5D8819FB16C2}.Release|x86.Build.0 = Release|Win32
+		{3DD5E0E6-C76F-4264-A1C0-E69A919D5678}.Debug|x64.ActiveCfg = Debug|x64
+		{3DD5E0E6-C76F-4264-A1C0-E69A919D5678}.Debug|x64.Build.0 = Debug|x64
+		{3DD5E0E6-C76F-4264-A1C0-E69A919D5678}.Debug|x86.ActiveCfg = Debug|Win32
+		{3DD5E0E6-C76F-4264-A1C0-E69A919D5678}.Debug|x86.Build.0 = Debug|Win32
+		{3DD5E0E6-C76F-4264-A1C0-E69A919D5678}.Release|x64.ActiveCfg = Release|x64
+		{3DD5E0E6-C76F-4264-A1C0-E69A919D5678}.Release|x64.Build.0 = Release|x64
+		{3DD5E0E6-C76F-4264-A1C0-E69A919D5678}.Release|x86.ActiveCfg = Release|Win32
+		{3DD5E0E6-C76F-4264-A1C0-E69A919D5678}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
