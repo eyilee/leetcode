@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "458-Poor-Pigs", "458-Poor-P
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "806-Number-of-Lines-To-Write-String", "806-Number-of-Lines-To-Write-String\806-Number-of-Lines-To-Write-String.vcxproj", "{7EF395EE-3E58-4042-B865-5876C94B3A2F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "551-Student-Attendance-Record-I", "551-Student-Attendance-Record-I\551-Student-Attendance-Record-I.vcxproj", "{E5C378C2-3464-4FFF-B56A-86728287F76A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{7EF395EE-3E58-4042-B865-5876C94B3A2F}.Release|x64.Build.0 = Release|x64
 		{7EF395EE-3E58-4042-B865-5876C94B3A2F}.Release|x86.ActiveCfg = Release|Win32
 		{7EF395EE-3E58-4042-B865-5876C94B3A2F}.Release|x86.Build.0 = Release|Win32
+		{E5C378C2-3464-4FFF-B56A-86728287F76A}.Debug|x64.ActiveCfg = Debug|x64
+		{E5C378C2-3464-4FFF-B56A-86728287F76A}.Debug|x64.Build.0 = Debug|x64
+		{E5C378C2-3464-4FFF-B56A-86728287F76A}.Debug|x86.ActiveCfg = Debug|Win32
+		{E5C378C2-3464-4FFF-B56A-86728287F76A}.Debug|x86.Build.0 = Debug|Win32
+		{E5C378C2-3464-4FFF-B56A-86728287F76A}.Release|x64.ActiveCfg = Release|x64
+		{E5C378C2-3464-4FFF-B56A-86728287F76A}.Release|x64.Build.0 = Release|x64
+		{E5C378C2-3464-4FFF-B56A-86728287F76A}.Release|x86.ActiveCfg = Release|Win32
+		{E5C378C2-3464-4FFF-B56A-86728287F76A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
