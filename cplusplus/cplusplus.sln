@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "551-Student-Attendance-Reco
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "97-Interleaving-String", "97-Interleaving-String\97-Interleaving-String.vcxproj", "{D29E96B9-6827-413F-A79B-5FB9CCB37A69}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "480-Sliding-Window-Median", "480-Sliding-Window-Median\480-Sliding-Window-Median.vcxproj", "{9E7EC946-5CE2-4785-9DE8-451F8E4EA6A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{D29E96B9-6827-413F-A79B-5FB9CCB37A69}.Release|x64.Build.0 = Release|x64
 		{D29E96B9-6827-413F-A79B-5FB9CCB37A69}.Release|x86.ActiveCfg = Release|Win32
 		{D29E96B9-6827-413F-A79B-5FB9CCB37A69}.Release|x86.Build.0 = Release|Win32
+		{9E7EC946-5CE2-4785-9DE8-451F8E4EA6A2}.Debug|x64.ActiveCfg = Debug|x64
+		{9E7EC946-5CE2-4785-9DE8-451F8E4EA6A2}.Debug|x64.Build.0 = Debug|x64
+		{9E7EC946-5CE2-4785-9DE8-451F8E4EA6A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{9E7EC946-5CE2-4785-9DE8-451F8E4EA6A2}.Debug|x86.Build.0 = Debug|Win32
+		{9E7EC946-5CE2-4785-9DE8-451F8E4EA6A2}.Release|x64.ActiveCfg = Release|x64
+		{9E7EC946-5CE2-4785-9DE8-451F8E4EA6A2}.Release|x64.Build.0 = Release|x64
+		{9E7EC946-5CE2-4785-9DE8-451F8E4EA6A2}.Release|x86.ActiveCfg = Release|Win32
+		{9E7EC946-5CE2-4785-9DE8-451F8E4EA6A2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
