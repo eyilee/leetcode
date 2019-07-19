@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2048
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "475-Heaters", "475-Heaters\475-Heaters.vcxproj", "{306F9ABF-470F-48A6-ADC1-BF98C59BD8CF}"
 EndProject
@@ -50,6 +50,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "970-Powerful-Integers", "970-Powerful-Integers\970-Powerful-Integers.vcxproj", "{AA0C5974-6ED3-4D63-8B09-6BA1E33261F5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1002-Find-Common-Characters", "1002-Find-Common-Characters\1002-Find-Common-Characters.vcxproj", "{05EE97E5-1BC7-4347-BEA5-535CB67445F9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15-3Sum", "15-3Sum\15-3Sum.vcxproj", "{2BC85288-83C0-4A66-B727-613CC5F1A192}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -251,6 +253,14 @@ Global
 		{05EE97E5-1BC7-4347-BEA5-535CB67445F9}.Release|x64.Build.0 = Release|x64
 		{05EE97E5-1BC7-4347-BEA5-535CB67445F9}.Release|x86.ActiveCfg = Release|Win32
 		{05EE97E5-1BC7-4347-BEA5-535CB67445F9}.Release|x86.Build.0 = Release|Win32
+		{2BC85288-83C0-4A66-B727-613CC5F1A192}.Debug|x64.ActiveCfg = Debug|x64
+		{2BC85288-83C0-4A66-B727-613CC5F1A192}.Debug|x64.Build.0 = Debug|x64
+		{2BC85288-83C0-4A66-B727-613CC5F1A192}.Debug|x86.ActiveCfg = Debug|Win32
+		{2BC85288-83C0-4A66-B727-613CC5F1A192}.Debug|x86.Build.0 = Debug|Win32
+		{2BC85288-83C0-4A66-B727-613CC5F1A192}.Release|x64.ActiveCfg = Release|x64
+		{2BC85288-83C0-4A66-B727-613CC5F1A192}.Release|x64.Build.0 = Release|x64
+		{2BC85288-83C0-4A66-B727-613CC5F1A192}.Release|x86.ActiveCfg = Release|Win32
+		{2BC85288-83C0-4A66-B727-613CC5F1A192}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
