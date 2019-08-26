@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1002-Find-Common-Characters
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15-3Sum", "15-3Sum\15-3Sum.vcxproj", "{2BC85288-83C0-4A66-B727-613CC5F1A192}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1171-Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List", "1171-Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List\1171-Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List.vcxproj", "{90A08533-55C3-4B2B-9F64-70451A117452}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -261,6 +263,14 @@ Global
 		{2BC85288-83C0-4A66-B727-613CC5F1A192}.Release|x64.Build.0 = Release|x64
 		{2BC85288-83C0-4A66-B727-613CC5F1A192}.Release|x86.ActiveCfg = Release|Win32
 		{2BC85288-83C0-4A66-B727-613CC5F1A192}.Release|x86.Build.0 = Release|Win32
+		{90A08533-55C3-4B2B-9F64-70451A117452}.Debug|x64.ActiveCfg = Debug|x64
+		{90A08533-55C3-4B2B-9F64-70451A117452}.Debug|x64.Build.0 = Debug|x64
+		{90A08533-55C3-4B2B-9F64-70451A117452}.Debug|x86.ActiveCfg = Debug|Win32
+		{90A08533-55C3-4B2B-9F64-70451A117452}.Debug|x86.Build.0 = Debug|Win32
+		{90A08533-55C3-4B2B-9F64-70451A117452}.Release|x64.ActiveCfg = Release|x64
+		{90A08533-55C3-4B2B-9F64-70451A117452}.Release|x64.Build.0 = Release|x64
+		{90A08533-55C3-4B2B-9F64-70451A117452}.Release|x86.ActiveCfg = Release|Win32
+		{90A08533-55C3-4B2B-9F64-70451A117452}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
