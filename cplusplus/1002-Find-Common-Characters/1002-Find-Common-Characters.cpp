@@ -6,27 +6,30 @@
 
 using namespace std;
 
-class Solution {
+class Solution
+{
 private:
 	char letters[26];
 
 public:
-	Solution() {
+	Solution ()
+	{
 		for (size_t i = 0; i < 26; i++) {
 			letters[i] = 'a' + i;
 		}
 	}
 
-	vector<string> commonChars(vector<string>& A) {
+	vector<string> commonChars (vector<string>& A)
+	{
 		map<char, int> common;
-		for (auto &x : A) {
+		for (auto& x : A) {
 			map<char, int> count;
-			for (auto &c : x) {
+			for (auto& c : x) {
 				count[c] += 1;
 			}
 
-			for (auto &c : letters) {
-				if (common.find(c) != common.end()) {
+			for (auto& c : letters) {
+				if (common.find (c) != common.end ()) {
 					if (common[c] > count[c]) {
 						common[c] = count[c];
 					}
@@ -38,10 +41,10 @@ public:
 		}
 
 		vector<string> ans;
-		for (auto &x : common) {
+		for (auto& x : common) {
 			if (x.second > 0) {
 				for (size_t i = 0; i < x.second; i++) {
-					ans.push_back(string(1, x.first));
+					ans.push_back (string (1, x.first));
 				}
 			}
 		}
@@ -50,15 +53,15 @@ public:
 	}
 };
 
-int main()
+int main ()
 {
 	Solution solution;
 
 	vector<string> A = { "bella","label","roller" };
 
-	vector<string> ans = solution.commonChars(A);
+	vector<string> ans = solution.commonChars (A);
 
-	for (auto &x : ans) {
+	for (auto& x : ans) {
 		cout << x << endl;
 	}
 

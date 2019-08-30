@@ -4,12 +4,14 @@
 
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-	vector<vector<int>> threeSum(vector<int>& nums) {
-		sort(nums.begin(), nums.end());
+	vector<vector<int>> threeSum (vector<int>& nums)
+	{
+		sort (nums.begin (), nums.end ());
 
-		size_t size = nums.size();
+		size_t size = nums.size ();
 
 		vector<vector<int>> ans;
 
@@ -35,7 +37,7 @@ public:
 					j++;
 				}
 				else {
-					ans.push_back(vector<int>{nums[i], nums[j], nums[k]});
+					ans.push_back (vector<int>{nums[i], nums[j], nums[k]});
 
 					j++;
 					while (j < k && nums[j] == nums[j - 1]) {
@@ -54,12 +56,13 @@ public:
 	}
 };
 
-int main() {
+int main ()
+{
 	Solution solution;
 	vector<int> nums{ 0, 0, 0 };
 	//vector<int> nums{ -1, 0, 1, 2, -1, -4, 1, -2, 3, -3 };
 
-	vector<vector<int>> ans = solution.threeSum(nums);
+	vector<vector<int>> ans = solution.threeSum (nums);
 
 	for (auto& set : ans) {
 		for (auto& it : set) {

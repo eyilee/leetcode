@@ -24,10 +24,8 @@ public:
 
 		ListNode* prev = dummy;
 		ListNode* current = head;
-		while (current != nullptr)
-		{
-			while (current != nullptr && current->val == 0)
-			{
+		while (current != nullptr) {
+			while (current != nullptr && current->val == 0) {
 				current = current->next;
 				// delete prev->next;
 				prev->next = current;
@@ -39,15 +37,12 @@ public:
 
 			int sum = current->val;
 			ListNode* next = current->next;
-			while (next != nullptr)
-			{
+			while (next != nullptr) {
 				sum += next->val;
 				next = next->next;
 
-				if (sum == 0)
-				{
-					while (current != next)
-					{
+				if (sum == 0) {
+					while (current != next) {
 						current = current->next;
 						// delete prev->next;
 						prev->next = current;
@@ -76,16 +71,14 @@ int main ()
 	ListNode* head = new ListNode (1);
 	ListNode* current = head;
 
-	for (auto& val : nums)
-	{
+	for (auto& val : nums) {
 		current->next = new ListNode (val);
 		current = current->next;
 	}
 
 	current = solution.removeZeroSumSublists (head);
 
-	while (current != nullptr)
-	{
+	while (current != nullptr) {
 		std::cout << current->val << std::endl;
 		current = current->next;
 	}
